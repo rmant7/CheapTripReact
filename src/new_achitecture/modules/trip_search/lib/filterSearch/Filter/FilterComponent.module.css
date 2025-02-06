@@ -1,0 +1,32 @@
+.top_padding {
+    padding-top: 80px;
+}
+
+.filters_sector {
+    padding: 25px;
+    margin: 10px auto;
+    width: 95%;
+    box-sizing: border-box;
+}
+@media (max-width: 960px){
+    .filters_sector {
+        padding: 0;
+        width: 100%;
+    }
+}
+.filters {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.filter_buttons {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.filter {
+    display: inline-block;
+    width: 80%;
+}

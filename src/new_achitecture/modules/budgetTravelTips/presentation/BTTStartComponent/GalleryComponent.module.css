@@ -1,0 +1,53 @@
+.sectionTitle {
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px;
+
+    margin: 0;
+}
+
+.cityDetailsMain {
+    color: #000;
+    text-align: center;
+    font-size: 1.2rem;
+    text-indent: 0;
+    padding: 20px;
+
+    margin: 0 0 20px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    transition: transform 1s ease;
+}
+
+.navGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.galBut {
+    background: none;
+    color: #ff5722;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    padding: 0
+}
+
+@media screen and (max-width: 320px) {
+    .sectionTitle {
+        font-size: 1.5rem;
+    }
+}

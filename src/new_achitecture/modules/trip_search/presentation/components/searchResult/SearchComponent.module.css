@@ -1,0 +1,47 @@
+.filter_buttons {
+    display: flex;
+    margin-top: 75px;
+    width: 100%;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+}
+
+.city_box {
+    display: flex;
+    flex-grow: 10;
+}
+
+.media_icon {
+    width: 24px;
+    height: 24px;
+    flex-basis: 10%;
+    color: #ff5722;
+    display: block;
+    align-self: center;
+}
+
+@media (max-width: 800px) {
+    .city_box {
+        display: flex;
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .media_icon {
+        transform: rotate(0.25turn);
+        justify-self: center;
+        margin-top: 10px;
+    }
+    .city_box {
+        display: flex;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
